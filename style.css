@@ -1,0 +1,46 @@
+body {
+    background-color: #ffffff;
+}
+
+.container {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    color: #0e0e0e;
+    background-color: #b6bfb8;
+    padding: 10px 20px;
+    user-select: none;
+    cursor: pointer;
+}
+.youtube{
+    display: inline-block;
+    background-color: red;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-left: 20em;
+    text-align: center;
+}
+.menuTab {
+    position: relative;
+}
+
+.slider {
+    width: 100px;
+    height: 5px;
+    background-color: #444dcc;
+    transition: all 0.5s ease;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li:hover {
+    opacity: 0.7;
+}
